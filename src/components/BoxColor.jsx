@@ -1,5 +1,6 @@
 import { useEffect,useRef,useState } from "react";//import UseEffect,useref y useState de react
 
+
 function boxColor ({color, value}) {
   const colors = ['red', 'green', 'pink', 'yellow', 'purple', 'white', 'blue', 'aqua', 'olive'];
   let [colorBox, setColorBox]= useState("")

@@ -8,6 +8,7 @@ const colors = ['red', 'green', 'pink', 'yellow', 'purple', 'white', 'blue', 'aq
 function App() {
   const [value, setValue] = useState('')
   const inputRef = useRef(null)
+
   return (
     <>
     <h3>Colors</h3>
@@ -20,7 +21,6 @@ function App() {
       value={value}
       ref={inputRef}
     />
-
 
 
     {colors.map((color,index)=>(
