@@ -1,6 +1,7 @@
 # Input box colors
 Con este ejercicio vamos a aprovechar el hook `useRef` para acceder a los atributos de los elementos.
 Como siempre instala las dependencias con `npm i` antes de empezar
+"npm run dev" para inicializar
 
 ## Objetivo
 
