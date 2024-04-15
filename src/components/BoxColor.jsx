@@ -1,4 +1,6 @@
 import { useEffect,useRef,useState } from "react";//import UseEffect,useref y useState de react
+import MyForm from "./MyFormChallenge";
+
 
 function boxColor ({color, value}) {
   const colors = ['red', 'green', 'pink', 'yellow', 'purple', 'white', 'blue', 'aqua', 'olive'];
@@ -9,14 +11,19 @@ function boxColor ({color, value}) {
     <>
     <ul>
     {colors.map((color,index)=>(
-      <li key={index}>I'm not a pink color</li>
+      <h3 key={index} className={setColorBox}>I'm not a pink color</h3>
     )
-      
     )}
+{colors.includes(Myform.value)?  setColorBox=(Myform.value): setColorBox=""}
+    
     </ul>
     
+
     
-    <h3>I'm not a pink color</h3>
+
+
+    
+    
     </> 
   )
   
